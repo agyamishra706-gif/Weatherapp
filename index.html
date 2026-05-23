@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_apllication</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=BBH+Bogle&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=DM+Serif+Display:ital@0;1&family=Fjalla+One&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@300..900&family=Merriweather:ital,opsz,wdth,wght@0,18..144,105.5,300..900;1,18..144,105.5,300..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg">
+    <div class="container-fluid p-3 ">
+        <div class="row">
+            <div class="col-sm-4 box t1 shadow rounded-4">
+                <div class="input-group pt-3 px-5">
+
+                    <input type="text" class="form-control" id="city" placeholder="Search City" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                    <button class="input-group-text" id="basic-addon1" onclick="weather()"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+
+                </div>
+                <div class="text-center">
+                    <img src="img/clouds.png" alt="" id="img">
+                </div>
+                <div class="text-center text-white">
+                    <h1 class="fw-bold" id="cityname">CITY NAME</h1>
+                    <br>
+                    <h2 class="fw-bold" id="temp">TEMP</h2>
+                </div>
+                <br><br>
+                <div class="row p-lg-3">
+                    <div class="col-lg-2 col-md-12 ">
+                        <img src="img/humidity.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-12 ps-3 text-white">
+                        <h4 id="humidity">44%</h4>
+                        <h4>Humidity</h4>
+                    </div>
+                    <div class="col-lg-2 col-md-12 ">
+                        <img src="img/wind.png" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-12 ps-3  text-white">
+                        <h4 id="wind">4.9 km/h</h4>
+                        <h4>Wind Speed</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+       
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/script.js"></script>
+</body>
+
+</html>

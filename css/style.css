@@ -1,0 +1,28 @@
+.bg {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box {
+    
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.t1 {
+  background-image: linear-gradient(rgb(249, 242, 242), rgb(0, 162, 255), rgb(77, 77, 231));,
+    
+}
+body{
+    
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+
+}
